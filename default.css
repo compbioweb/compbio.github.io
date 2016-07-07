@@ -37,7 +37,11 @@ strong
 
 a
 {
-	color: #171717;
+	color: white;
+}
+a1
+{
+	color: blue;
 }
 
 a:hover
@@ -174,6 +178,9 @@ ul.style3 .first {
 	border-top: none;
 	box-shadow: none;
 }
+
+
+
 /*********************************************************************************/
 /* Social Icon Styles                                                            */
 /*********************************************************************************/
@@ -268,12 +275,24 @@ ul.contact li a.icon-rss:before
 	color: #6F6F6F;
 }
 
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+
+
 /** WRAPPER */
 
 #wrapper
 {
 	border-bottom: 1px solid rgba(0,0,0,.1);
-	background: #FFFFFF url(images/bg01.png) repeat;
+	background: grey url(images/bg01.png) repeat;
+}
+
+#wrapper2
+{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	background: white url(images/bg01.png) repeat;
 }
 
 #footer-wrapper
@@ -292,6 +311,8 @@ ul.contact li a.icon-rss:before
 	clear: both;
 }
 
+
+
 /*********************************************************************************/
 /* Wrappers                                                                      */
 /*********************************************************************************/
@@ -299,11 +320,12 @@ ul.contact li a.icon-rss:before
 #header-wrapper
 {
 	overflow: hidden;
-	background: #262116;
+	background: white;
+    height: 425px;
 }
 
 /*********************************************************************************/
-/* Header                                                                        */
+/* Header   2                                                                     */
 /*********************************************************************************/
 
 	#header
@@ -314,12 +336,36 @@ ul.contact li a.icon-rss:before
 }
 
 /*********************************************************************************/
+/* Wrappers  2                                                                    */
+/*********************************************************************************/
+
+#header-wrapper2
+{
+	overflow: hidden;
+	background: white;
+    height: 150px;
+}
+
+/*********************************************************************************/
+/* Header2                                                                     */
+/*********************************************************************************/
+
+	#header2
+{
+	position: relative;
+    height:150px;
+    width: 600px;
+	overflow: hidden;
+	text-align: center;
+}
+
+/*********************************************************************************/
 /* Logo                                                                          */
 /*********************************************************************************/
 
 	#logo
 {
-	width: 500px;
+	width: 1000px;
 	margin: 0 auto;
 	padding: 2em 0em;
 	text-transform: uppercase;
@@ -357,13 +403,15 @@ ul.contact li a.icon-rss:before
 	#banner	.image
 		{
 			display: inline-block;
+            float: center;
 		}
 		
 		#banner	.image img
 			{
 				display: block;
 				width: 100%;
-			}
+
+}
 
 /** MENU */
 
@@ -431,7 +479,7 @@ ul.contact li a.icon-rss:before
 
 #content
 {
-	float: right;
+	float: center;
 	width: 790px;
 }
 
@@ -462,8 +510,10 @@ ul.contact li a.icon-rss:before
 	#copyright
 {
 	overflow: hidden;
-	padding: 5em 0em;
+	padding: 3em 0em;
 	text-align: center;
+    height:0.5cm;
+
 }
 
 #copyright p
@@ -471,15 +521,19 @@ ul.contact li a.icon-rss:before
 	letter-spacing: 0.20em;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 0.80em;
-	color: #6F6F6F;
+	font-size: 1em;
+	color: white;
 }
 
 #copyright a
 {
 	text-decoration: none;
 	color: #8C8C8C;
+    font-size: 1.5em;
+
 }
+
+
 
 /*********************************************************************************/
 /* Welcome                                                                       */
@@ -538,6 +592,14 @@ ul.contact li a.icon-rss:before
 	color: #262116;
 }
 
+
+#portfolio .title1 h2
+{
+	font-size: 1.2em;
+	color: #262116;
+}
+
+
 #portfolio .byline
 {
 	font-size: 1em;
@@ -594,46 +656,15 @@ ul.contact li a.icon-rss:before
 	text-align: center;
 	color: #FFF;
 }
+/* Footer */
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
-	
-	#footer-wrapper
-{
-	overflow: hidden;
-	padding: 5em 0em;
-	border-top: 1px solid rgba(0,0,0,.1);
-}
+	#footer {
+		padding: 4em 0 2em 0;
+		text-align: center;
+		font: white;
+        background: black;
+	}
 
-#footer
-{
-	color: #ADADAD;
-}
-
-#footer .title h2
-{
-	font-weight: 400;
-	font-size: 1.2em;
-	color: #FFF;
-}
-
-#footer .title
-{
-	border-color: #2D2926 !important;
-}
-
-#footer .style1 li
-{
-	border-color: #2D2926 !important;
-}
-
-#footer .style1 a
-{
-	letter-spacing: 0.10em;
-	font-size:1em;
-	color: #B1B1B1;
-}
 
 #box1
 {
