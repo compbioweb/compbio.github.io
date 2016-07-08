@@ -776,6 +776,7 @@ ul.contact li a2.icon-rss:before
 #column1,  #column2,  #column3,  #column4
 {
 	width: 282px;
+    font-size: 12px;
 }
 
 #column1,  #column2
