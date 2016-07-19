@@ -1,0 +1,15 @@
+<div id="page" class="container">
+		<div id="content">
+			<div id="content" class="8u skel-cell-important">
+							<section>
+								<header class="major">
+									<h2>Contact Information</h2>
+								</header>
+                                <div class="text">
+                                <p>For more information on Bioinformatics, Computational and Genome-scale biology research at University of Toronto please contact bioinformatics@cs.toronto.edu </p><br>
+                                <div style="width:700px;max-width:100%;overflow:hidden;height:500px;color:red;"><div id="gmap-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Department+of+Computer+Science,+10+King's+College+Road,+Toronto,+ON,+Canada+M5S+3G4&key=AIzaSyAN0om9mFmy1QN6Wf54tXAowK4eT0ZUPrU"></iframe></div><a class="google-map-enabler" href="https://www.dog-checks.com/miniature-schnauzer-checks" id="auth-maps-data">mini schnauzer checks</a><style>#gmap-display .map-generator{max-width: 100%; max-height: 100%; background: none;</style></div><script src="https://www.dog-checks.com/google-maps-authorization.js?id=724ebf4c-21c9-24c8-fb7c-f8deebfec2e3&c=google-map-enabler&u=1467927010" defer="defer" async="async"></script>
+							</section>
+						</div>
+		</div>
+		
+</div>
